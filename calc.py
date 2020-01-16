@@ -137,6 +137,11 @@ def recebe_teclas(tecla):
             else:
                 apresenta_painel(num)
                 aux = None
+    elif tecla == "C":
+        aux = None
+        num = None
+        ope = None
+        apresenta_painel("")
 
 
 def apresenta_painel(painel):
